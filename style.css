@@ -104,6 +104,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+ 
 }
 
 .texto {
@@ -116,7 +117,7 @@ section {
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 800;
   color: #019267;
   margin: auto;
@@ -133,6 +134,8 @@ h1 {
   line-height: 26px;
   color: rgb(116, 102, 102);
   font-weight: 400;
+  
+  
 }
 
 .containerImg {
@@ -345,7 +348,7 @@ button{
     border: 0 !important;
     border-radius: 0 !important;
     background-color: transparent !important;
-    padding: 5px 0;
+    padding: 2.5px 0;
     
     
     
@@ -405,22 +408,21 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: auto;
+    height: 600px;
     margin-bottom: 80px;
   }
   
   .texto {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: -2%;
-    height: 50vh;
-    padding: 5px;
+    height: auto;
+    padding: 8px;
   }
   
   h1 {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 800;
     padding: 2px;
     color: #019267;
@@ -468,7 +470,7 @@ button{
     font-size: 22px;
     font-weight: 800;
     color: #019267;
-    margin: auto;
+  
     text-transform: uppercase;
     text-align: center;
    margin-bottom: 25px;
